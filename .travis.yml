@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "7.2.1"
-script: "node run index.js"
+script: "node index.js"
 deploy: 
   provider: pages
   skip_cleanup: true
